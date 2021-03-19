@@ -5,7 +5,7 @@ O/P 	 : clears the screen
 By       : Nina- htw dresden/Dozent
 ----------------------------------------
 
-clrscr proc near
+org 100h
    mov ax,0b800h
    mov es,ax
    mov di,0
@@ -16,7 +16,10 @@ clrscr proc near
         inc di
         inc di
         cmp di,4000
-        jle loop_clear_12
-        ret
-endp
-
+   jle loop_clear_12
+   
+   mov ah,4ch  ; dos interrupt 21 function 4ch to terminate program
+   mov al,00
+   int 21h
+ret
+                    
