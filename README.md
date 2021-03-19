@@ -6,4 +6,3 @@ Liebe Schüler, wenn du die Assemblersprache 8086 lernen willst, dann lies meine
 Liebe Studenten, ich bin auf Github aktiv und werde einige wichtige Themen der Programmierung / ASM / Berechnungstheorie / Quanten & Künstliche Intelligenz hier auf Github hochladen. Aufgrund meiner neuen E-Mail-ID habe ich einen neuen Account bei Github und all meinen erstellt andere Konten werden deaktiviert. Für weitere Anfragen können Sie mich unter NinaGessner@htw-dresden.de erreichen.
 Danke!
 Nina
-https://github.com/Nina-Gessner-Baleno/8086-ASM-Programming/blob/main/screenlöschen.asm
